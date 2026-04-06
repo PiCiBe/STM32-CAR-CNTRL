@@ -8765,6 +8765,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 77.47 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7eda434-727c-4b8c-b903-7929890d19a0")
+		(property "Reference" "R303"
+			(at 80.01 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 80.01 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.692 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "408c0ce8-e9a8-4369-ad74-8ab8ecee94cd")
+		)
+		(pin "2"
+			(uuid "5d1b3736-a61b-4bb5-8e5d-7242689e80c4")
+		)
+		(instances
+			(project ""
+				(path "/dd3da271-7a0d-4137-afa8-fed08148c503"
+					(reference "R303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 259.08 119.38 0)
 		(unit 1)
